@@ -1,0 +1,11 @@
+2024-11-26T13:17:46.088+05:30  INFO 12716 --- [TrimbleCars] [nio-8082-exec-1] c.e.T.services.CarOwnerServiceImpl       : Successfully registered car owner with ID
+2024-11-26T13:18:45.348+05:30  INFO 12716 --- [TrimbleCars] [nio-8082-exec-3] c.e.T.services.CarOwnerServiceImpl       : Successfully registered car owner with ID
+2024-11-26T13:20:04.122+05:30  INFO 12716 --- [TrimbleCars] [nio-8082-exec-8] c.e.T.services.CarOwnerServiceImpl       : Fetching cars for owner ID
+2024-11-26T13:20:52.225+05:30  INFO 12716 --- [TrimbleCars] [io-8082-exec-10] c.e.T.services.CustomerServiceImpl       : Registering customer:
+2024-11-26T13:21:52.225+05:30  INFO 12716 --- [TrimbleCars] [io-8082-exec-10] c.e.T.services.CustomerServiceImpl       : Registering customer:
+2024-11-26T13:21:47.367+05:30  INFO 12716 --- [TrimbleCars] [nio-8082-exec-1] c.e.T.services.CustomerServiceImpl       : Available Cars:
+2024-11-26T13:22:33.553+05:30  INFO 12716 --- [TrimbleCars] [nio-8082-exec-3] c.e.T.services.CustomerServiceImpl       : Lease started successfully for customer ID: 1 and car ID: 3
+2024-11-26T13:23:35.356+05:30  INFO 12716 --- [TrimbleCars] [nio-8082-exec-7] c.e.T.services.AdminServiceImpl          : Found car owners
+2024-11-26T13:24:41.151+05:30  INFO 12716 --- [TrimbleCars] [io-8082-exec-10] c.e.T.services.AdminServiceImpl          : Fetching all leases
+2024-11-26T13:24:41.162+05:30  INFO 12716 --- [TrimbleCars] [io-8082-exec-10] c.e.T.services.AdminServiceImpl          : Found leases.
+
