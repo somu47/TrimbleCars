@@ -12,18 +12,18 @@ import jakarta.persistence.OneToMany;
 @Entity
 public class CarOwner {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
 
-    private String name;
+	private String name;
 
-    private String email;
+	private String email;
 
-    private String phoneNumber;
+	private String phoneNumber;
 
-    @OneToMany(mappedBy = "carOwner", cascade = CascadeType.ALL)
-    private List<Car> cars;
+	@OneToMany(mappedBy = "carOwner", cascade = CascadeType.ALL)
+	private List<Car> cars;
 
 	public Long getId() {
 		return id;
@@ -77,7 +77,7 @@ public class CarOwner {
 		this.name = name;
 		this.email = email;
 		this.phoneNumber = phoneNumber;
-		
+
 	}
 
 	public CarOwner() {
@@ -85,6 +85,4 @@ public class CarOwner {
 		// TODO Auto-generated constructor stub
 	}
 
-    
 }
-
